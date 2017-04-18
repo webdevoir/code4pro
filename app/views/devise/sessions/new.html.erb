@@ -3,10 +3,9 @@
     <h5>Log in</h5>
 
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-      <%= devise_error_messages! %>
-
+      <%= render partial: "shared/devisemes" %>
       <div class="intput-field">
-        <%= f.email_field :mail, :id => "email", :class => "validate", :placeholder => "Email" %>
+        <%= f.email_field :email, :id => "email", :class => "validate", :placeholder => "Email" %>
       </div>
 
       <div class="input-field">
