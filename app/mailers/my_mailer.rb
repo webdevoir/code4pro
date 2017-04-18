@@ -1,7 +1,7 @@
 class MyMailer < ApplicationMailer
 
 def sendgrid_client
-  @sendgrid_client ||= SendGrid::API.new(api_key: ENV['sendgrid_api'])
+  @sendgrid_client ||= SendGrid::API.new(api_key: ENV["sendgrid_api"])
   end
 
   def new_user(user)
