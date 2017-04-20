@@ -37,6 +37,8 @@ gem 'devise'
 gem 'toastr-rails'
 gem 'figaro'
 gem 'sendgrid-ruby'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
 
 # use capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -44,6 +46,9 @@ gem 'sendgrid-ruby'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-rails', '~> 0.3.2'
 end
 
 group :development do
