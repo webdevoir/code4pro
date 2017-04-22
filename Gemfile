@@ -43,6 +43,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
+gem 'paperclip', '~> 5.1'
 
 # use capistrano for deployment
 # gem 'capistrano-rails', group: :development
