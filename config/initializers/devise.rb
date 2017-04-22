@@ -16,4 +16,7 @@ Devise.setup do |config|
 
   require 'omniauth-google-oauth2'
   config.omniauth :google_oauth2, ENV["google_api_key"], ENV["google_api_secret"], {access_type: "offline", approval_prompt: "" }
+
+  require 'omniauth-facebook'
+  config.omniauth :facebook, ENV["facebook_app_id"], ENV["facebook_app_secret"]
 end

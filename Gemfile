@@ -39,6 +39,7 @@ gem 'figaro'
 gem 'sendgrid-ruby'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
 
 # use capistrano for deployment
 # gem 'capistrano-rails', group: :development
