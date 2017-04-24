@@ -48,6 +48,7 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 
 gem 'friendly_id', '~> 5.1'
+gem 'active_admin-sortable_tree'
 
 # use capistrano for deployment
 # gem 'capistrano-rails', group: :development
