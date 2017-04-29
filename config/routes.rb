@@ -15,4 +15,8 @@ Rails.application.routes.draw do
     resources :task, only: [:show]
   end
 
+  resources :project do
+    resources :reviews, only: [:create, :destroy]
+  end
+
 end
