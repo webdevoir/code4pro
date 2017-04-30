@@ -49,6 +49,7 @@ gem 'coderay', '~> 1.1', '>= 1.1.1'
 
 gem 'friendly_id', '~> 5.1'
 gem 'active_admin-sortable_tree'
+gem 'stripe'
 
 # use capistrano for deployment
 # gem 'capistrano-rails', group: :development
