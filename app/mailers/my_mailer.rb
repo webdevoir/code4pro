@@ -30,5 +30,4 @@ def sendgrid_client
 
     sendgrid_client.client.mail._("send").post(request_body: data)
   end
-
 end
